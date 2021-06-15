@@ -14,7 +14,7 @@
 
           ?> 
           
-          <form action="mesajgonder.php" method="post" id="sendemail" >
+          <form action="mesajgonder" method="post" id="sendemail" >
             <ol>
               <li>
                 <label for="name">Adiniz</label>

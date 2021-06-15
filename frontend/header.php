@@ -43,13 +43,13 @@ $ayar_cek=$ayar->fetch(PDO::FETCH_ASSOC);
     <div class="header_resize">
       <div class="menu_nav">
         <ul>
-          <li class="active"><a href="index.php"><span>Ana Səyfə</span></a></li>
-          <li><a href="about.php"><span>Haqqımızda</span></a></li>
-          <li><a href="contact.php"><span>Əlaqə</span></a></li>
+          <li class="active"><a href="index"><span>Ana Səyfə</span></a></li>
+          <li><a href="about"><span>Haqqımızda</span></a></li>
+          <li><a href="contact"><span>Əlaqə</span></a></li>
         </ul>
       </div>
       <div class="logo">
-        <h1><a href="index.php" style="color:blue;">Xeberler<span style="color:#FF98C2;">Blogu</span></a></h1>
+        <h1><a href="index" style="color:blue;">Xeberler<span style="color:#FF98C2;">Blogu</span></a></h1>
       </div>
       <div class="clr"></div>
       <div class="slider">

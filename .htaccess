@@ -1,0 +1,8 @@
+#htacces kodlarini aktiv elemek ucundur
+RewriteEngine ON
+
+# .php uzantisini qaldirma kodu
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+rewriteRule ^(.*)$ $1.php
+

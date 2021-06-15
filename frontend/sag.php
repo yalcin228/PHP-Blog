@@ -28,7 +28,7 @@ $kateqori_cek=$kateqori->fetchAll(PDO::FETCH_ASSOC);
                 $yazilar_say=$yazilar->rowCount();
               ?>
 
-            <li><a href="kateqori-listele.php?kat_id=<?php echo $row["kateqori_id"]; ?>"><?php echo $row["kateqori_title"];  ?></a><span style="float:right;"><?php echo $yazilar_say; ?></span></li>
+            <li><a href="kateqori-listele?kat_id=<?php echo $row["kateqori_id"]; ?>"><?php echo $row["kateqori_title"];  ?></a><span style="float:right;"><?php echo $yazilar_say; ?></span></li>
             <?php } ?>
             
           </ul>
@@ -44,7 +44,7 @@ $kateqori_cek=$kateqori->fetchAll(PDO::FETCH_ASSOC);
                   foreach($yazi_cek as $row){
                 ?>
             <li>
-            <a href="blog.php?yazi_id=<?php echo $row["yazi_id"]; ?>"><?php echo $row["yazi_basliq"]; ?></a><br />
+            <a href="blog?yazi_id=<?php echo $row["yazi_id"]; ?>"><?php echo $row["yazi_basliq"]; ?></a><br />
               <?php echo substr($row["yazi_icerik"],0,120); ?>...</li>
         <?php } ?>
           </ul>

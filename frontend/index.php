@@ -50,10 +50,10 @@
             for($i=$sehive-$gorunenSehive; $i<$sehive+$gorunenSehive+1;$i++){
               if($i>0 && $i<=$sehiveSayi){
                 if($i== $sehive){
-                 echo '<a href="index.php?sehive='.$i.'" style="background-color:#42ade7; color:white;" >'.$i.'</a> '; 
+                 echo '<a href="index?sehive='.$i.'" style="background-color:#42ade7; color:white;" >'.$i.'</a> '; 
                 }
                 else{
-                  echo ' <a href="index.php?sehive='.$i.'">'.$i.'</a>';
+                  echo ' <a href="index?sehive='.$i.'">'.$i.'</a>';
                 }
               }
             }

@@ -70,7 +70,7 @@
         <div class="article">
           <h2>Fikirlerinizi bildirin...</h2>
           <div class="clr"></div>
-          <form action="yorum-yaz.php" method="post" id="leavereply" onsubmit="return false;" >
+          <form action="yorum-yaz" method="post" id="leavereply" onsubmit="return false;" >
             <ol>
               <li>
               <input type="hidden" name="yorum_yazi_id" value="<?php echo $yazi_id; ?>">
